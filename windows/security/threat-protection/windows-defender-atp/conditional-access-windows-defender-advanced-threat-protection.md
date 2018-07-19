@@ -119,7 +119,7 @@ Take the following steps to enable conditional access:
 2. Select **Device compliance** > **Policies** > **Create policy**.
 3. Enter a **Name** and **Description**.
 4. In **Platform**, select **Windows 10 and later**.
-5. In the **Device Health** settings, set **Require the device to be at or under the Device Threat Level** to your preferred level:
+5. In the **Windows Defender ATP** settings, set **Require the device to be at or under the Device Threat Level** to your preferred level:
 
   - **Secured**: This level is the most secure. The device cannot have any existing threats and still access company resources. If any threats are found, the device is evaluated as noncompliant.
   - **Low**: The device is compliant if only low-level threats exist. Devices with medium or high threat levels are not compliant.
